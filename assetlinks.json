@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "eu.coders.fingerprint",
+    "sha256_cert_fingerprints":
+    ["F8:0C:7C:7D:30:BB:25:5C:C8:EA:D0:AA:2C:5C:85:29:D5:6A:08:A1:C1:BB:E8:1E:A2:29:41:44:4D:71:05:7E"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://mitrsewa.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "eu.coders.fingerprint",
+    "sha256_cert_fingerprints":
+    ["F8:0C:7C:7D:30:BB:25:5C:C8:EA:D0:AA:2C:5C:85:29:D5:6A:08:A1:C1:BB:E8:1E:A2:29:41:44:4D:71:05:7E"]
+  }
+}]
